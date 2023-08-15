@@ -30,12 +30,9 @@ public class StringMethods1 {
 		// isEmpty() - method
 		System.out.println(s.isEmpty());    // false
 		
-//		s= "";
-//		System.out.println(s.isEmpty());    // true
+		s= "";
+        System.out.println(s.isEmpty());    // true
 		
-		// String substring(int startIngex, int endIndex) - method
-		System.out.println(s.substring(3, 8));      // Gress
-
 	}
 
 }

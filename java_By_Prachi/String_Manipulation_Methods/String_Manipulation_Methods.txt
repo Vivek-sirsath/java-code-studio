@@ -1,0 +1,65 @@
+# What is String? and How to create Strring?
+
+Strings are sequence of char values OR collection of characters. In java Strings are treated as an object.
+
+1) 1st Way to create String object
+char[] ch = {'T','r','a','n','c','e'};
+String s = new String(ch);
+
+2) 2nd way to create String object
+String s = "Trance";
+
+# What are string manipulation methods?
+Java String class provides lots of methods to perform operations on string.
+
+1) char chsrAt(int index)                          -->   Returns char value of particular index
+2) int length()                                    -->   Returns length of a string
+3) String toLowerCase()                            -->   Returns string in lower case
+4) String toUpperCase()                            -->   Returns string in upper case
+5) String replace(char oldChar, char newChar)      -->   Replaces old char value by new char value
+6) int indexOf(char ch)                            -->   Returns index of specified character
+7) String substring(int startIndex)                -->   Returns substring for given start index
+8) boolean isEmpty()                               -->   Checks if string is empty
+9) String substring(int startIngex, int endIndex)  -->   Return substring from startIndex to endIndex
+
+   Start index start from - 0
+   End index start from - 1
+
+           Start index:  0 1 2 3 4 5 6 7 8   9  10
+                         P r o G r e s s i   v   e
+             end index:  1 2 3 4 5 6 7 8 9  10  11 
+
+10) boolean contains(CharacterSequence t)          -->   Checks if string contains specific character sequence
+11) String trim()                                  -->   Used to remove leading and trailing white spaces
+                                                           e.g.  "  well  "   -->  Output: "well"
+12) boolean startsWith(String str)                 -->   Checks if string starts with specific character sequence
+                                                           return --> true or false
+13) boolean startWith(String str, int startIndex)  -->   Check if the string starts with specific substring and
+                                                         starting from specific index
+                                                           e.g.
+                                                                Start index:  0 1 2 3 4 5 6 7 8   9  10
+                                                                              P r o G r e s s i   v   e
+                                                                 startWith("ress", 4)  -->  true
+14) boolean endsWith(String substring)             -->   Check if the string ends with specific substring 
+                                                         (Case Sensitive)
+15) boolean equals(Object anotherObject)           -->   Check the equality string with the object (Case Sensitive)
+16) boolean equalsIgnoreCase(String anotherString) -->   Check quality of strings by ignoring lower and upper case
+17) Concatenation uing operator (+)                -->   Use to join / concatenate two strings
+18) Concatenation uing concat() method             -->   Use to join / concatenate two strings
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
