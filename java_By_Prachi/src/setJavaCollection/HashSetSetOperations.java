@@ -22,7 +22,7 @@ public class HashSetSetOperations {
 		setB.add(7);
 		System.out.println("Set B: " + setB);
 		
-	        // Union of setA and setB
+		// Union of setA and setB
 //		setB.addAll(setA);
 //		System.out.println("Union: " + setB);
 		
