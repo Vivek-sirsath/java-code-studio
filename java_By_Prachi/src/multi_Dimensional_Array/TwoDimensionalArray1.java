@@ -23,6 +23,16 @@ public class TwoDimensionalArray1 {
 		// Print Rows and Columns		
 		System.out.println("No. of rows" + " = " + a.length);
 		System.out.println("No. of colums" + " = " + a[0].length);
+		
+		// To print all the elements
+		for(int i = 0; i < a.length; i++) {
+			
+			for(int j  = 0; j<a[0].length; j++) { // j[0] is first column
+				
+				System.out.println(a[i][j]);
+			}
+		}
+		
 
 	}
 

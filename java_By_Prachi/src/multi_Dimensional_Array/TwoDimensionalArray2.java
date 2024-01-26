@@ -11,7 +11,7 @@ public class TwoDimensionalArray2 {
 		int[][] a = { { 5, 6 }, { 7, 8 }, { 1, 2 }, {8,9} };
 		
 		// At runtime we can change the values in array
-		a[1][1] = 12;   // replaced 8 by 12
+		a[1][1] = 4;   // replaced 8 by 12
 
 		// Print Rows and Columns
 		System.out.println("No. of rows" + " = " + a.length);
