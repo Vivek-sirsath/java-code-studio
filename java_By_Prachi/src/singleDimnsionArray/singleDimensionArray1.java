@@ -22,7 +22,7 @@ public class singleDimensionArray1 {
 		
 		// Print each element in array
 		System.out.println("using for loop");
-		for(int i = 2; i < rollNo.length-2; i++ ) {
+		for(int i = 0; i < rollNo.length; i++ ) {
 			System.out.println(rollNo[i]);
 		}
 		
@@ -30,6 +30,12 @@ public class singleDimensionArray1 {
 		System.out.println("Using for each loop");
 		for(int e : rollNo) {
 			System.out.println(e);
+		}
+		
+		// Print only last four elements of an array
+		System.out.println("Last four elements of an array");
+		for (int i = 4; i < rollNo.length; i++) {
+			System.out.println(rollNo[i]);
 		}
 
 	}
