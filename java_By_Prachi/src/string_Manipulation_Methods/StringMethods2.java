@@ -44,10 +44,10 @@ public class StringMethods2 {
 		String c = "Wel";
 		String d = "come";
 		
-		// Concatenation uing operator (+)
+		// Concatenation using operator (+)
 		System.out.println(c+d); // Welcome
 		
-		// Concatenation uing - concat() method
+		// Concatenation using - concat() method
 		System.out.println(c.concat(d)); // Welcome
 		
 	}

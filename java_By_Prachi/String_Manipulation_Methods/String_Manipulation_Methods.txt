@@ -1,4 +1,4 @@
-# What is String? and How to create Strring?
+# What is String? and How to create String?
 
 Strings are sequence of char values OR collection of characters. In java Strings are treated as an object.
 
@@ -12,7 +12,7 @@ String s = "Trance";
 # What are string manipulation methods?
 Java String class provides lots of methods to perform operations on string.
 
-1) char chsrAt(int index)                          -->   Returns char value of particular index
+1) char charAt(int index)                          -->   Returns char value of particular index
 2) int length()                                    -->   Returns length of a string
 3) String toLowerCase()                            -->   Returns string in lower case
 4) String toUpperCase()                            -->   Returns string in upper case
